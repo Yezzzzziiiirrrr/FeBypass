@@ -8,7 +8,7 @@ local batCode = [[
 @echo off
 color A
 setlocal enabledelayedexpansion
-echo Fe Bypass Roblox Executer Byfron Bypass (Y/N)
+echo Inject FeBypasser Into Executer? (Y/N)
 set /p choice="> "
 if /i "!choice!"=="Y" (
     echo Fe bypassing Roblox...
@@ -26,4 +26,4 @@ pause >nul
 
 local batFileName = "FeBypassInjection.bat"
 writefile(batFileName, batCode)
-print("Successfully Attached FeBypasser: " .. batFileName)
+print("Successfully Attached FeBypasser Run In Workspace: " .. batFileName)
