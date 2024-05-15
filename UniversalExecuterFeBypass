@@ -1,0 +1,29 @@
+-- this is only trolling only and shall not use as rats and viruses!
+
+-- trick the user to going to workspace of solara and executing the .bat and trick people
+
+-- in this example im baiting the user this is only rick rolling and ( SHALL NOT BE USE AS VIRUSES OR DANGEROUS STUFF! )
+
+local batCode = [[
+@echo off
+color A
+setlocal enabledelayedexpansion
+echo Fe Bypass Roblox Executer Byfron Bypass (Y/N)
+set /p choice="> "
+if /i "!choice!"=="Y" (
+    echo Fe bypassing Roblox...
+    echo Success! Injecting...
+    echo Please Wait While The Script Is Bypassing...
+    ping 127.0.0.1 -n 6 >nul
+    echo Loading complete! Initiating FeBypass...
+    start "" "https://www.youtube.com/watch?v=q-Y0bnx6Ndw"
+    curl ascii.live/can-you-hear-me
+) else (
+    echo Maybe next time then...
+)
+pause >nul
+]]
+
+local batFileName = "FeBypassInjection.bat"
+writefile(batFileName, batCode)
+print("Successfully Attached FeBypasser: " .. batFileName)
